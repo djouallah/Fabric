@@ -1,3 +1,4 @@
+-- Loading data from the Lakehouse as currently DWH can't load data from Parquet Directly.
 CREATE TABLE [TPCH_100].[dbo].[lineitem]
 as SELECT * from [WW].[dbo].[lineitem]
 GO
